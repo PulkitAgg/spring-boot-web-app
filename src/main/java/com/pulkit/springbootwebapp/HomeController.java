@@ -9,7 +9,7 @@ public class HomeController {
 	@RequestMapping("home")
 	public String home() {
 		System.out.println("Hii, this is home page");
-		return "home.jsp"; // return file under webapp home.jsp, default folder name is webapp
+		return "home"; // return file under webapp home.jsp, default folder name is webapp
 		// spring boot convert the jsp into servelet internally
 	}
 }
