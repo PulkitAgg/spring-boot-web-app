@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	Hi This is my first page
+	Welcome ${name}
 </body>
 </html>
